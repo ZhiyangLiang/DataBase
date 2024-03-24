@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="input-section">
+    <form id="dataForm">
+        <input type="text" id="loan_number" name="loan_number" placeholder="loan_number">
+        <input type="text" id="payment_number" name="payment_number" placeholder="payment_number">
+        <input type="datetime-local" id="payment_datetime" name="payment_datetime" placeholder="payment_datetime">
+        <input type="number" id="payment_amount" name="payment_amount" placeholder="payment_amount">
+        <button type="submit" id="insert-button">Insert</button>
+    </form>
+    <form id="selectForm">
+        <input type="text" id="table_name" name="table_name" placeholder="table_name">
+        <button type="submit" id="select-button">Select</button>
+        <div id="result-area"></div>
+    </form>
+</div>
+</body>
+</html>
